@@ -1,0 +1,168 @@
+.a1 {
+  background-color: rgba(255, 255, 255, 0.86);
+  width: 100vw;
+  height: 100vh;
+}
+
+.a2 {
+    width: 100vw;
+    height: 28vh;
+}
+.a3{
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
+    color: #000;
+}
+
+.a4{
+    display: flex;
+    margin-left: 3vw;
+    padding-top: 2vh;
+}
+
+.a5 {
+    width: 13vw;
+    margin-right: 1.5vw;
+
+}
+
+.a6 {
+    width: 100%;
+    height: 4vh;
+    padding: 5%;
+}
+
+.input {
+    font-family: sans-serif;
+    max-width: 190px;
+    outline: none;
+    border: 1px solid #dadada;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f3f7fe;
+    transition: .3s;
+    color: #171717;
+  }
+  
+  .input:focus {
+    border: 1px solid #3b82f6;
+    box-shadow: 0 0 0 4px #3b83f65f
+  }
+
+  .a7 {
+    display: flex;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+
+  .a8{
+    width: 70%;
+    height: 4vh;
+    padding: 5%;
+    outline: none;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+  }
+input[type="date"] {
+    background-color: #f3f7fe;
+    color: #000;            
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); 
+  }
+
+  .a8:focus {
+    border: 1px solid #3b82f6;
+    box-shadow: 0 0 0 4px #3b83f65f
+  }
+  
+
+  .a9 {
+    width: 70%;
+    height: 4vh;
+    padding-left: 5%;
+    background-color: #f3f7fe;
+    color: #171717;
+    outline: none;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+  }
+
+  .a9:focus {
+    border: 1px solid #3b82f6;
+    box-shadow: 0 0 0 4px #3b83f65f
+  }
+
+  .a11 {
+    font-family: inherit;
+    font-size: 20px;
+    background: #231dca;
+    color: white;
+    fill: rgb(211, 211, 211);
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-weight: 1000;
+  }
+  
+  .a11 span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .a11 svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .a11:hover {
+    background: #2b2be0;
+  }
+  
+  .a11:hover .svg-wrapper {
+    transform: scale(1.25);
+    transition: 0.5s linear;
+  }
+  
+  .a11:hover svg {
+    transform: translateX(1.2em) scale(1.1);
+    fill: #fff;
+  }
+  
+  .a11:hover span {
+    opacity: 0;
+    transition: 0.5s linear;
+  }
+  
+  .a11:active {
+    transform: scale(0.95);
+  }
+  
+  .a10 {
+    margin-left: 3vw;
+    margin-top: 1.5vh;
+    height: 5vh;
+  }
+
+  .a12{
+    height: 100%;
+  }
+
+  .da1 {
+    width: 100%;
+    height: 72vh;
+    padding: 0 2vw 1vh 2vw;
+  }
